@@ -1,0 +1,95 @@
+body{
+  font-family:  "Avenir Next";
+}
+li{
+  list-style: none;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-color:#FF4546;
+}
+/*ロゴ*/
+.header-left {
+  float: left;
+  padding-left: 20px;
+}
+.header-right {
+  float: right;
+}
+.header-right a{
+  line-height: 70px;
+  color:white;
+  text-decoration:none;
+}
+/*通知 マイページ*/
+ul.sub{
+  font-weight:bold;
+}
+li.sub1,li.sub2{
+  float:left;
+  width:150px;
+}
+li.sub1{
+  position:relative;top:15px;
+}
+li.sub2{
+  color: white;
+  
+
+}
+/*メニュー*/
+ul.menu{
+  height:45px;
+  background-color:#FF4546;/*D36959/FF4546*/
+  font-weight:bold;
+  font-size: 25px;
+  margin:7px 0;
+}
+/*menuの全指定*/
+li.menu01,li.menu02,li.menu03,li.menu04{
+  float:left;
+  display:inline;
+  width:452.5px;
+  line-height: 50px;
+  transition: all 0.5s;
+}
+/*URL 判定*/
+ul.menu a{
+  text-decoration:none;
+  display:block;
+  color: white;
+  text-align:center;
+}
+/*検索*/
+li.menu01{
+  border-right:3px solid white;
+  border-left:3px solid white;
+}
+li.menu01:hover{
+  background-color: rgba(255, 255, 255, 0.5);/*hoverがカーソルを当てた時に変更加える*/
+}
+/*いいね*/
+li.menu02{
+  border-right:3px solid white;
+}
+li.menu02:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/*メッセージ*/
+li.menu03{
+  border-right:3px solid white;
+}
+li.menu03:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/*お問い合わせ*/
+li.menu04{
+  border-right:3px solid white;
+}
+li.menu04:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.profile-icon{
+  margin:100px 0 0 400px;
+}
