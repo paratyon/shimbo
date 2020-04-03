@@ -35,12 +35,10 @@ li.sub1{
 }
 li.sub2{
   color: white;
-  
-
 }
 /*メニュー*/
 ul.menu{
-  height:45px;
+  height:55px;
   background-color:#FF4546;/*D36959/FF4546*/
   font-weight:bold;
   font-size: 25px;
@@ -49,10 +47,11 @@ ul.menu{
 /*menuの全指定*/
 li.menu01,li.menu02,li.menu03,li.menu04{
   float:left;
-  display:inline;
+
   width:452.5px;
   line-height: 50px;
   transition: all 0.5s;
+  background-repeat:no-repeat;
 }
 /*URL 判定*/
 ul.menu a{
@@ -60,6 +59,7 @@ ul.menu a{
   display:block;
   color: white;
   text-align:center;
+  height:55px
 }
 /*検索*/
 li.menu01{
@@ -90,6 +90,30 @@ li.menu04{
 li.menu04:hover{
   background-color: rgba(255, 255, 255, 0.5);
 }
+.profile{
+  background-color: ;
+  display: flex;
+  text-align: center;
+}
+.kao{
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width:  180px;       /* ※縦横を同値に */
+  height: 180px;       /* ※縦横を同値に */
+}
 .profile-icon{
-  margin:100px 0 0 400px;
+  padding: 100px 10px 0 250px;
+
+}
+.profile-icon1-2{
+  padding: 100px 10px 0 100px;
+
+}
+.profile-icon1-3{
+  padding: 100px 10px 0 100px;
+}
+.profile-icon1-4{
+  padding: 100px 10px 0 100px;
+}
+.profile-icon1-5{
+  padding: 100px 10px 0 100px;
 }
