@@ -25,8 +25,9 @@ header {
   top: 50px;
   right: 20px;
 }
+/*背景全部*/
 .top-wrapper{
-  padding: 90px 0 200px 0;
+  padding: 90px 0 300px 0;
   background-image: url("5.png");
   color: white;
   background-size:cover;
@@ -46,16 +47,15 @@ header {
   display: inline-block;
   border-radius: 10px;
 }
-.signup{
-  background-color:#FF4546;
-  text-decoration:none;
-}
+/*登録ボタン*/
 .facebook{
   background-color:#3b5998;
   text-decoration:none;
+  font-size: 30px;
 }
+/*登録ボタン*/
 .btn-wrapper{
-  margin:20px 0;
+  margin:70px 0;
 }
 .btn-wrapper p{
   margin:20px;
