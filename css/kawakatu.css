@@ -14,106 +14,49 @@ header {
   float: left;
   padding-left: 20px;
 }
-.header-right {
-  float: right;
-}
-.header-right a{
-  line-height: 70px;
-  color:white;
-  text-decoration:none;
-}
-/*通知 マイページ*/
-ul.sub{
-  font-weight:bold;
-}
-li.sub1,li.sub2{
-  float:left;
-  width:150px;
-}
-li.sub1{
-  position:relative;top:15px;
-}
-li.sub2{
-  color: white;
-}
-/*メニュー*/
-ul.menu{
-  height:55px;
-  background-color:#FF4546;/*D36959/FF4546*/
-  font-weight:bold;
-  font-size: 25px;
-  margin:7px 0;
-}
-/*menuの全指定*/
-li.menu01,li.menu02,li.menu03,li.menu04{
-  float:left;
-
-  width:452.5px;
-  line-height: 50px;
-  transition: all 0.5s;
-  background-repeat:no-repeat;
-}
-/*URL 判定*/
-ul.menu a{
-  text-decoration:none;
-  display:block;
-  color: white;
-  text-align:center;
-  height:55px
-}
-/*検索*/
-li.menu01{
-  border-right:3px solid white;
-  border-left:3px solid white;
-}
-li.menu01:hover{
-  background-color: rgba(255, 255, 255, 0.5);/*hoverがカーソルを当てた時に変更加える*/
-}
-/*いいね*/
-li.menu02{
-  border-right:3px solid white;
-}
-li.menu02:hover{
-  background-color: rgba(255, 255, 255, 0.5);
-}
-/*メッセージ*/
-li.menu03{
-  border-right:3px solid white;
-}
-li.menu03:hover{
-  background-color: rgba(255, 255, 255, 0.5);
-}
-/*お問い合わせ*/
-li.menu04{
-  border-right:3px solid white;
-}
-li.menu04:hover{
-  background-color: rgba(255, 255, 255, 0.5);
-}
-.profile{
-  background-color: ;
-  display: flex;
+.container{
+  width: 1170px;
+  margin: 0 auto;
   text-align: center;
-}
-.kao{
-  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-  width:  180px;       /* ※縦横を同値に */
-  height: 180px;       /* ※縦横を同値に */
-}
-.profile-icon{
-  padding: 100px 10px 0 250px;
 
 }
-.profile-icon1-2{
-  padding: 100px 10px 0 100px;
+.title{
+  position:relative;
+  top: 50px;
+  right: 20px;
+}
+.top-wrapper{
+  padding: 90px 0 200px 0;
+  background-image: url("5.png");
+  color: white;
+  background-size:cover;
+}
+.top-wrapper h1{
+  font-size: 45px;
+  letter-spacing:5px;
 
 }
-.profile-icon1-3{
-  padding: 100px 10px 0 100px;
+.top-wrapper p{
+  font-size: 20px;
+  font-weight:bold;
 }
-.profile-icon1-4{
-  padding: 100px 10px 0 100px;
+.btn{
+  padding: 8px 24px;
+  color:white;
+  display: inline-block;
+  border-radius: 10px;
 }
-.profile-icon1-5{
-  padding: 100px 10px 0 100px;
+.signup{
+  background-color:#FF4546;
+  text-decoration:none;
+}
+.facebook{
+  background-color:#3b5998;
+  text-decoration:none;
+}
+.btn-wrapper{
+  margin:20px 0;
+}
+.btn-wrapper p{
+  margin:20px;
 }
